@@ -97,4 +97,16 @@ function fun() {
 }
 call3Times(fun);
 
+// ************N times*************
+
+function callNTimes(x, hello) {
+    let supDawg = [];
+    for (let i = 0; i < x; i++) {
+       supDawg.push(hello);
+    }
+    console.log(supDawg);
+}
+
+callNTimes(5, 'hello world');
+
 
