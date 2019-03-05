@@ -11,8 +11,6 @@ function noNegitive(numbArrs) {
 noNegitive([1, -2, 3, -5, 9]);
 
 
-
-
 //**********even numbers *********
 function noOdds(arr) {
     let even = arr.filter(val => {
@@ -34,35 +32,69 @@ function squaresVille(flats) {
 squaresVille([2, 5, 6, 7, 99]);    
 
 //*************cities #1**************
-var cities = [
-    { name: 'Los Angeles', temperature: 60.0},
-    { name: 'Atlanta', temperature: 52.0 },
-    { name: 'Detroit', temperature: 48.0 },
-    { name: 'New York', temperature: 80.0 }
-];
+// var cities = [
+//     { name: 'Los Angeles', temperature: 60.0},
+//     { name: 'Atlanta', temperature: 52.0 },
+//     { name: 'Detroit', temperature: 48.0 },
+//     { name: 'New York', temperature: 80.0 }
+// ];
 
 
-function coldTimeInTheCity(cities) {
-    let niceAndCold = cities.filter(val => {
-        return val < 70;
-    });
-    console.log(niceAndCold);
-}
-coldTimeInTheCity(cities, "temperature");
+// function coldTimeInTheCity(cities) {
+//     let niceAndCold = cities.filter(val => {
+//         return val < 70;
+//     });
+//     console.log(niceAndCold);
+// }
+// coldTimeInTheCity(cities, "temperature");
 
 
 //**************cities #2 *****************
 
-function whosTownIsThis(cities) {
-    let notMyTown = citites.filter(val => {
-        return val;
-    })
-    console.log(notMyTown);
+// function whosTownIsThis(cities) {
+//     let notMyTown = citites.filter(val => {
+//         return val;
+//     })
+//     console.log(notMyTown);
+// }
+
+// whosTownIsThis(['cities']);
+
+//*************good job*********
+
+var people = [
+    'Dom',
+    'Lyn',
+    'Kirk',
+    'Autumn',
+    'Trista',
+    'Jesslyn',
+    'Kevin',
+    'John',
+    'Eli',
+    'Juan',
+    'Robert',
+    'Keyur',
+    'Jason',
+    'Che',
+    'Ben'
+  ];
+
+people.forEach(function(people) {
+    console.log(`Good Job, ${people}!!!`);
+});
+
+
+//*************3 times************
+
+function call3Times(fun) {
+    fun();
+    fun();
+    fun();
 }
-
-whosTownIsThis(['cities']);
-
-
-
+function fun() {
+    console.log("Hello World");
+}
+call3Times(fun);
 
 
