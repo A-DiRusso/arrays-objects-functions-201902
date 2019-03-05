@@ -126,3 +126,18 @@ function beyonce(str, x) {
 
 beyonce(str, 5);
 
+// ****************sort an Array********************
+people.sort();
+console.log(people);
+
+
+// *****************sort by Length************
+
+let longName = people.sort(function(a, b){
+    return b.length - a.length;
+});
+
+console.log(longName);
+
+
+
