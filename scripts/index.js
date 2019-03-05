@@ -32,13 +32,17 @@ function squaresVille(flats) {
 squaresVille([2, 5, 6, 7, 99]);    
 
 //*************cities #1**************
-// var cities = [
-//     { name: 'Los Angeles', temperature: 60.0},
-//     { name: 'Atlanta', temperature: 52.0 },
-//     { name: 'Detroit', temperature: 48.0 },
-//     { name: 'New York', temperature: 80.0 }
-// ];
+var cities = [
+    { name: 'Los Angeles', temperature: 60.0},
+    { name: 'Atlanta', temperature: 52.0 },
+    { name: 'Detroit', temperature: 48.0 },
+    { name: 'New York', temperature: 80.0 }
+];
 
+let coolCity = cities.filter(val => {
+    return val.temperature < 70;
+})
+console.log(coolCity);
 
 // function coldTimeInTheCity(cities) {
 //     let niceAndCold = cities.filter(val => {
