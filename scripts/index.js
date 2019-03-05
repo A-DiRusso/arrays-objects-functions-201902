@@ -51,6 +51,17 @@ function coldTimeInTheCity(cities) {
 coldTimeInTheCity(cities, "temperature");
 
 
+//**************cities #2 *****************
+
+function whosTownIsThis(cities) {
+    let notMyTown = citites.filter(val => {
+        return val;
+    })
+    console.log(notMyTown);
+}
+
+whosTownIsThis(['cities']);
+
 
 
 
