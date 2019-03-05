@@ -125,8 +125,9 @@ function beyonce(str, x) {
     let arr = [];
     for (let i = 0; i <= x; i++) {
         arr.push(str);
-        console.log(arr);
+        
     }
+    console.log(arr);
     return arr;
     
 }
