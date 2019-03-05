@@ -109,4 +109,20 @@ function callNTimes(x, hello) {
 
 callNTimes(5, 'hello world');
 
+// **************** Str Multiply ************
+
+str = 'who run the world? Girls!';
+
+function beyonce(str, x) {
+    let arr = [];
+    for (let i = 0; i <= x; i++) {
+        arr.push(str);
+        console.log(arr);
+    }
+    return arr;
+    
+}
+
+
+beyonce(str, 5);
 
