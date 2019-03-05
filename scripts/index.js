@@ -55,6 +55,10 @@ console.log(coolCity);
 
 //**************cities #2 *****************
 
+let cityGuide = cities.filter(val => {
+    return val.name;
+});
+console.log(cityGuide);
 // function whosTownIsThis(cities) {
 //     let notMyTown = citites.filter(val => {
 //         return val;
